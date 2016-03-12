@@ -1,0 +1,39 @@
+
+//For Loops in PHP
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <p>
+      <?php
+        $yardlines = array("The 50... ", "the 40... ",
+        "the 30... ", "the 20... ", "the 10... ");
+        // Write your foreach loop below this line
+        foreach ($yardlines as $gun){
+        
+        // Write your foreach loop above this line
+        echo $gun;
+        }
+      ?>
+    </p>
+  </body>
+</html>
+//WHILE
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Much a do-while</title>
+	</head>
+	<body>
+    <?php
+		$loopCond = false;
+		do {
+			echo "<p>The loop ran even though the loop condition is false.</p>";
+	}	while ($loopCond);
+		
+		
+		echo "<p>Now the loop is done running.</p>";
+    ?>
+    </body>
+</html>
